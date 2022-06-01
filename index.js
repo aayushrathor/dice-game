@@ -12,5 +12,5 @@ if (random1 === random2) {
 }
 
 /* Setting images according to random numbers */
-document.querySelector(".img1").setAttribute("src", "/images/dice" + random1 + ".png");
-document.querySelector(".img2").setAttribute("src", "/images/dice" + random2 + ".png");
+document.querySelector(".img1").setAttribute("src", "images/dice" + random1 + ".png");
+document.querySelector(".img2").setAttribute("src", "images/dice" + random2 + ".png");
